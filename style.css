@@ -1,0 +1,91 @@
+/* Reset CSS values of various web browser defaults */
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+/* CSS */
+body {
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 16px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: lightgray;
+}
+header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    background-color: lightgray;
+    border-bottom: solid 4px darkblue;
+    }
+.logo {
+    font-weight: 700;
+    color:darkblue;   
+}
+ul { 
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    justify-content: space-between;
+}
+#hero {
+    display: flex;
+    gap: 32px;
+    min-height: 50vh;
+    padding-top: 64px;
+}
+.hero_content {
+    max-width: 65ch;
+}
+.hero_content h1 {
+    max-width: 20ch;
+}
+#services {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.service {
+    max-width: 70ch;
+}
+h1, h2 {
+    color: darkblue;   
+}
+a {
+    color: darkblue;
+    font-weight: 700;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding:  32px 0 32px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#contact input {
+    max-width: 50vh;
+}
+#contact button {
+    max-width: calc(100vh/4);
+    justify-content: center;
+    background-color: grey;
+    border: solid 1px black;
+}
+footer {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 48px;
+}
